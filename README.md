@@ -1,6 +1,6 @@
 # Automobile service invoice
 
-This a lab to write a Program for Automobile service invoice.we to
+In this lab we will write a Program for Automobile service invoice to
 output a menu of automotive services and the corresponding cost of each service and service are
 Oil change -- $35
 Tire rotation -- $19
