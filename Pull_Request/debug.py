@@ -13,5 +13,4 @@ def lone_sum(a, b, c):
       return a
     else:
       return a+b+c
-
 print(lone_sum(a, b, c))
