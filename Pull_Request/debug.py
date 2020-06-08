@@ -1,14 +1,17 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
 def lone_sum(a, b, c):
-    if a >= b:
-        return c
+    if a == b and a == c and b == c:
+      return 0
     elif a == c:
-        return b
+      return b
+    elif a >= b:
+      return c
     elif b == c:
-        return a
-    elif a == b and a == c and b == c:
-        return 0
+      return a
     else:
-        return a + b + c
+      return a+b+c
 
-
-print(lone_sum(1, 2, 3))
+print(lone_sum(a, b, c))
